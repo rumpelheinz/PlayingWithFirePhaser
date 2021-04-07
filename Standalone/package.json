@@ -1,0 +1,17 @@
+{
+  "name": "phaserplayingwithfire",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "1",
+    "mac": {
+      "category": "clock"
+    }
+  },
+  "devDependencies": {
+    "electron": "^3.0.4"
+  }
+}

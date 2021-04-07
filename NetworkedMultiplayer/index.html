@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playing With Fire</title>
+    <script src="Script/phaser.min.js"></script>
+    <script src="Script/socketio.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body style="margin-left: 0;margin-right: 0;margin-bottom: 0;margin-top: 0;">
+<!--<H1>Wir haben mystäriöse Aktivität bei ihnen festgestellt. Bitte gebe deine kreditkarte ein, um zu zeigen das du kein Robotter bist.</H1>
+<textarea id="password" ></textarea><button onclick="verify()">Ich bin nicht 1 robbott</button>
+-->
+<div class="content">
+    <canvas id="gamewindow"></canvas>
+
+    <div class="overlay" id="overlaywindow">
+        <div style="height:20vh"></div>
+
+        <div class="gameoverbox">
+            <H1>
+                <center>
+                    Player
+                    <span id="playernumber">? </span>
+                    has won the game.
+                </center>
+            </H1>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <div>
+                    <button class="restartbutton" style="margin: auto" onclick="location.reload()"> RESTART</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <button class="loverbuttons" onclick="reloadAll()">Reload</button>
+        <button class="loverbuttons">Reload2</button>
+    </div>
+</div>
+
+</body>
+<script src="Script/Game3.js"></script>
+<script src="Script/Powerup.js"></script>
+<script src="Script/Bomb.js"></script>
+<script src="Script/Player.js"></script>
+</html>
